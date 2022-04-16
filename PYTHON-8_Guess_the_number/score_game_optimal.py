@@ -7,11 +7,18 @@ import numpy as np
 
 
 def optimal_predict(number: int = 1) -> int:
-    """ Угадываем число при помощи оптимального алгоритма.
-    :arrow_up:[к оглавлению](https://github.com/MugenKom/Mugen_progects/blob/main/PYTHON-8_Guess_the_number/README.md#Оглавление)
+    """ Угадываем число при помощи следующего алгоритма:
     
+    Оптимальный алгоритм угадывания:
+        Положим left_num = 1 и rightt_num = 100.
+        Называем число, равное middle = (left_num + right_num) // 2 ;
+        Если это число равно задуманному, то мы угадали!;
+        Если это число меньше задуманного, то положим left_num = middle + 1
+        и продолжим алгоритм;
+        Если это число больше задуманного, то положим right_num = middle - 1
+        и продолжим алгоритм.
+    Функция принимает загаданное число и возвращает число попыток
     
-
     Args:
         number (int, optional): Загаданное число. Defaults to 1.
 
@@ -26,22 +33,23 @@ def optimal_predict(number: int = 1) -> int:
 
     while True:
         count+=1
-        predict_number = (left_num + right_num) // 2 
+        middle = (left_num + right_num) // 2 
     
-        if predict_number > number:
-            right_num = predict_number - 1
+        if middle > number:
+            right_num = middle - 1
 
-        elif predict_number < number:
-            left_num = predict_number + 1
+        elif middle < number:
+            left_num = middle + 1
     
-        else:    
+        else:
            break # Конец игры выход из цикла
     return count
 
 
 def score_game(optimal_predict) -> int:
-    """За какое количство попыток в среднем за 1000 подходов угадывает наш алгоритм
-
+    """Какое среднее количество попыток нужно алгоритму для угадывания числа 
+    за 1000 проходов.
+    
     Args:
         optimal_predict ([type]): функция угадывания
 
