@@ -53,7 +53,12 @@
 
 ### Этапы работы над проектом  
 
-[1. Напишем программу game_hot_cold.py.](https://github.com/MugenKom/Mugen_progects/blob/main/PYTHON-8_Guess_the_number/game_hot_cold.py)   
+[1. Напишем программу game_random.py.](https://github.com/MugenKom/Mugen_progects/blob/main/PYTHON-8_Guess_the_number/game_random.py)
+- Компьютер генерирует целое число от 1 до 100.
+- Программа сама угадывает загаданное число случайным образом. 
+- На экран выводится загаданное число и количество попыток. 
+
+[2. Напишем программу game_hot_cold.py.](https://github.com/MugenKom/Mugen_progects/blob/main/PYTHON-8_Guess_the_number/game_hot_cold.py)   
 Программа использует алгоритм угадывания числа "Горячо-Холодно". 
 - Компьютер генерирует целое число от 1 до 100.
 - Программа сама угадывает загаданное число.  
@@ -61,10 +66,10 @@
         Называем любое целое число predict_number от 1 до 100;  
         Если это число равно задуманному, то мы угадали!;  
         Если нет, то называем любое следующее число, в зависимости от того, больше или меньше predict_number загаданоого числа и продолжаем алгоритм.   
-- Проограмма выводит на экран загаданное число и количество попыток. 
+- На экран выводится загаданное число и количество попыток.  
 
-[2. Напишем программу game_optimal.py](https://github.com/MugenKom/Mugen_progects/blob/main/PYTHON-8_Guess_the_number/game_optimal.py)  
-Программа использует наиболее оптимальный алгоритм угадывания числа.    
+[3. Напишем программу game_optimal.py](https://github.com/MugenKom/Mugen_progects/blob/main/PYTHON-8_Guess_the_number/game_optimal.py)  
+Программа использует алгоритм угадывания числа "Бинарный поиск".    
 - Компьютер генерирует целое число от 1 до 100.
 - Программа сама угадывает загаданное число.
 - Используемый алгоритм:   
@@ -73,32 +78,29 @@
         Если это число равно задуманному, то мы угадали!;  
         Если это число меньше задуманного, то положим left_num = middle + 1 и продолжим алгоритм;  
         Если это число больше задуманного, то положим right_num = middle - 1 и продолжим алгоритм.   
-- Проограмма выводит на экран загаданное число и количество попыток. 
+- На экран выводится загаданное число и количество попыток. 
 
-[3. Напишем программу score_game_hot_cold.py](https://github.com/MugenKom/Mugen_progects/blob/main/PYTHON-8_Guess_the_number/score_game_hot_cold.py)  
-Данная программа считает среднее количество попыток угадывания числа за 1000 проходов алгоритма "Горячо-Холодно" и выводит полученное значение на экран.
+[4. Напишем программу evaluation_game_algorithms.py](https://github.com/MugenKom/Mugen_progects/blob/main/PYTHON-8_Guess_the_number/evaluation_game_algorithms.py)  
+Данная программа содержит оценочную функцию score_game(), которая определяет среднее количество попыток угадывания числа за 1000 проходов того или иного алгоритма и выводит полученное значение на экран.  
+Аргументами данной функции выступают функции random_predict, hot_cold_predict, optimal_predict (также описанные в программе), реализующие три вышеописанных алгоритма.
 
-[4. Напишем программу score_game_optimal.py](https://github.com/MugenKom/Mugen_progects/blob/main/PYTHON-8_Guess_the_number/score_game_optimal.py)  
-Данная программа считает среднее количество попыток угадывания числа за 1000 проходов оптимального алгоритма и выводит полученное значение на экран. 
-
-[5. Напишем программу score_game_random.py](https://github.com/MugenKom/Mugen_progects/blob/main/PYTHON-8_Guess_the_number/score_game_random.py)  
-Данная программа считает среднее количество попыток угадывания числа за 1000 проходов при рандомном угадывании и выводит полученное значение на экран.
-
+[5. Запускаем оценочную функцию для каждого из алгоритмов и сравниваем результаты](https://github.com/MugenKom/Mugen_progects/blob/main/PYTHON-8_Guess_the_number/game_jupyter.ipynb)
 
 :arrow_up:[к оглавлению](https://github.com/MugenKom/Mugen_progects/blob/main/PYTHON-8_Guess_the_number/README.md#Оглавление)
 
 
 ### Результаты:  
-Сравним результаты работы трёх алгоритмов поиска загаданного числа (Рандомный, "Горячо-Холодно" и Оптимальный):
+Результаты работы трёх алгоритмов поиска загаданного числа (Рандомный, "Горячо-Холодно" и "Бинарный поиск"):
+ - Алгоритм Рандомный угадывает число в среднем за: 100 попыток.
  - Алгоритм "Горячо-Холодно" угадывает число в среднем за: 7 попыток;
  - Оптимальный алгоритм угадывает число в среднем за: 5 попыток;
- - Алгоритм Рандомный угадывает число в среднем за: 100 попыток.
-
+ 
 :arrow_up:[к оглавлению](https://github.com/MugenKom/Mugen_progects/blob/main/PYTHON-8_Guess_the_number/README.md#Оглавление)
 
 
 ### Выводы:  
-Наиболее быстрым и эффективным алгоритмом является алгоритм, описанный в программе [game_optimal.py](https://github.com/MugenKom/Mugen_progects/blob/main/PYTHON-8_Guess_the_number/game_optimal.py)
+Наиболее быстрым и эффективным алгоритмом является алгоритм Бинарного поиска, описанный в программе [game_optimal.py](https://github.com/MugenKom/Mugen_progects/blob/main/PYTHON-8_Guess_the_number/game_optimal.py)  
+Среднее количество угадываний данного алгоритма равняется 5, что в 1.4 раза лучше, чем у алгоритма Угадывания с коррекцией (Горячо-Хололдно) и в 20 раз лучше рандомного угадывания.
 
 :arrow_up:[к оглавлению](https://github.com/MugenKom/Mugen_progects/blob/main/PYTHON-8_Guess_the_number/README.md#Оглавление)
 
