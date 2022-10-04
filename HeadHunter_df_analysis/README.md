@@ -1,20 +1,20 @@
 # Проект 1. Анализ вакансий из HeadHunter 
 
 ## Оглавление  
-[1. Описание проекта](https://github.com/MugenKom/Mugen_progects/blob/main/HeadHunter_DF_analysis/README.md#Описание-проекта)  
+[1. Описание проекта](https://github.com/MugenKom/Mugen_progects/blob/main/HeadHunter_df_analysis/README.md#Описание-проекта)  
 
-[2. Какой кейс решаем?](https://github.com/MugenKom/Mugen_progects/blob/main/HeadHunter_DF_analysis/README.md#Какой-кейс-решаем) 
+[2. Какой кейс решаем?](https://github.com/MugenKom/Mugen_progects/blob/main/HeadHunter_df_analysis/README.md#Какой-кейс-решаем) 
 
-[3. Краткая информация о данных](https://github.com/MugenKom/Mugen_progects/blob/main/HeadHunter_DF_analysis/README.md#Краткая-информация-о-данных)
+[3. Краткая информация о данных](https://github.com/MugenKom/Mugen_progects/blob/main/HeadHunter_df_analysis/README.md#Краткая-информация-о-данных)
 
-[4. Результаты](https://github.com/MugenKom/Mugen_progects/blob/main/HeadHunter_DF_analysis/README.md#Результат)    
+[4. Результаты](https://github.com/MugenKom/Mugen_progects/blob/main/HeadHunter_df_analysis/README.md#Результат)    
 
 
 ### Описание проекта   
 
 Провести обработку данных из базы резюме, выгруженной с сайта поиска вакансий hh.ru.
 
-:arrow_up:[к оглавлению](https://github.com/MugenKom/Mugen_progects/blob/main/HeadHunter_DF_analysis/README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/MugenKom/Mugen_progects/blob/main/HeadHunter_df_analysis/README.md#Оглавление)
 
 
 ### Какой кейс решаем?  
@@ -54,7 +54,7 @@
 - учимся очищать данные от бесполезной информации
 - Практикуемся в работе с ноутбуком и GitHub
 
-:arrow_up:[к оглавлению](https://github.com/MugenKom/Mugen_progects/blob/main/HeadHunter_DF_analysis/README.md#Оглавление)  
+:arrow_up:[к оглавлению](https://github.com/MugenKom/Mugen_progects/blob/main/HeadHunter_df_analysis/README.md#Оглавление)  
 
 
 ### Краткая информация о данных
@@ -68,7 +68,7 @@
 Также предоставлен дополнительный файл с курсами валют: [ExchangeRates.csv](https://drive.google.com/file/d/1TQIEwk7S3B82KatVuykDV7lCNwqzGJWU/view?usp=sharing)
 
 
-:arrow_up:[к оглавлению](https://github.com/MugenKom/Mugen_progects/blob/main/HeadHunter_DF_analysis/README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/MugenKom/Mugen_progects/blob/main/HeadHunter_df_analysis/README.md#Оглавление)
 
 
 ### Результаты:  
@@ -76,7 +76,7 @@
 
 [HeadHunter_DF.ipynb](https://github.com/MugenKom/Mugen_progects/blob/main/PYTHON-8_Guess_the_number/game_optimal.py)
 
-:arrow_up:[к оглавлению](https://github.com/MugenKom/Mugen_progects/blob/main/PHeadHunter_DF_analysis/README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/MugenKom/Mugen_progects/blob/main/PHeadHunter_df_analysis/README.md#Оглавление)
 
 
 Если информация по этому проекту покажется вам интересной или полезной, то я буду очень вам благодарна, если отметите репозиторий и профиль ⭐️⭐️⭐️-дами
