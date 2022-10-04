@@ -7,7 +7,7 @@
 
 [3. Краткая информация о данных](https://github.com/MugenKom/Mugen_progects/blob/main/HeadHunter_df_analysis/README.md#Краткая-информация-о-данных)
 
-[4. Результаты](https://github.com/MugenKom/Mugen_progects/blob/main/HeadHunter_df_analysis/README.md#Результат)    
+[4. Результаты](https://github.com/MugenKom/Mugen_progects/blob/main/HeadHunter_df_analysis/README.md#Результаты)    
 
 
 ### Описание проекта   
@@ -74,9 +74,9 @@
 ### Результаты:  
 
 
-[HeadHunter_DF.ipynb](https://github.com/MugenKom/Mugen_progects/blob/main/PYTHON-8_Guess_the_number/game_optimal.py)
+[HeadHunter_DF.ipynb](https://github.com/MugenKom/Mugen_progects/blob/main/HeadHunter_df_analysis/HeadHunter_df.ipynb)
 
-:arrow_up:[к оглавлению](https://github.com/MugenKom/Mugen_progects/blob/main/PHeadHunter_df_analysis/README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/MugenKom/Mugen_progects/blob/main/HeadHunter_df_analysis/README.md#Оглавление)
 
 
 Если информация по этому проекту покажется вам интересной или полезной, то я буду очень вам благодарна, если отметите репозиторий и профиль ⭐️⭐️⭐️-дами
