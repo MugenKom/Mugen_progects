@@ -1,7 +1,7 @@
 # Проект 2. Анализ вакансий из HeadHunter SQL
 
 ## Оглавление  
-[1. Описание проекта](https://github.com/MugenKom/Mugen_progects/blob/main/SQL_HeadHunter_analysis/README.md#Описание-проекта)  
+[1. Описание проекта](https://github.com/MugenKom/Mugen_progects/blob/main/SQL_HeadHunter_analysis/README.md#Описание-проекта) 
 
 [2. Какой кейс решаем?](https://github.com/MugenKom/Mugen_progects/blob/main/SQL_HeadHunter_analysis/README.md#Какой-кейс-решаем) 
 
